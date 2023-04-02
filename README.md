@@ -117,12 +117,19 @@ As for how such algorithms can be used to build trust between humans, I think th
 
 
 Works Cited
+
 Aumann, Robert. Backward Induction, Knowledge, and Common Knowledge. 2019.
+
 Browne, Cameron. “A Survey of Monte Carlo Tree Search Methods.” 2017.
+
 Lowe, Ryan. “Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments.” 2017.
+
 M. Kreps, David. Backward Induction and Common Knowledge of Rationality. 2019.
+
 Mnih, Volodymyr. Playing Atari with Deep Reinforcement Learning. 2019.
+
 Silver, David. “Mastering the Game of Go with Deep Neural Networks and Tree Search” by David Silver et Al. (2016). 2016.
+
 T. Friedman, Alice, and Susan E. Metros. “Pirate Games: Creating a Fictional World for Learning.” 2018.
 
 
