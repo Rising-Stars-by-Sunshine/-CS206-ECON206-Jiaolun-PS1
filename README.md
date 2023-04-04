@@ -79,7 +79,7 @@ Possible strategies for Player B:
 
 4. Gambler's scheme: Different from Player A, in addition to the cooperation scheme and risk minimization scheme, Player B can choose to invest a number less than 25 to get all of Player A's funds. (If player A is unwilling to cooperate, then he must put in a number between 50 and 100 because Player A wants to avoid the situation (4) in the first place, then he must put in a number large enough to ensure this.)
 
-Pay-off:
+- Pay-off:
 
 Based on all of the above solutions, there are several possible scenarios for this game:
 
