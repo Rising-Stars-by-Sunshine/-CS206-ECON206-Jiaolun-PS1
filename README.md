@@ -26,6 +26,7 @@ Note: please insert the screenshot of the answers to your research question by C
 
 ### Model
 - Game environment
+
 The trust game involves two players playing a psychological game that is based on the following assumptions: first, they are both rational and will not act out of expectation for any reason other than profit; Secondly, they cannot communicate with each other in words, and all information must be acquired for the capture of the game process and hidden information. Therefore, there is no case that two people consult each other and reaching the so-called optimal solution. Secondly, they are people who follow the rules of the game and don't introduce behaviors that disrupt the structure of the game and lead to non-standard outcomes; In the end, they started with 500.
 
 Based on these three premises, two people must play the following game:
