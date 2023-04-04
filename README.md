@@ -26,17 +26,24 @@ Note: please insert the screenshot of the answers to your research question by C
 
 ### Model
 - Game environment
-
 The trust game involves two players playing a psychological game that is based on the following assumptions: first, they are both rational and will not act out of expectation for any reason other than profit; Secondly, they cannot communicate with each other in words, and all information must be acquired for the capture of the game process and hidden information. Therefore, there is no case that two people consult each other and reaching the so-called optimal solution. Secondly, they are people who follow the rules of the game and don't introduce behaviors that disrupt the structure of the game and lead to non-standard outcomes; In the end, they started with 500.
 
 Based on these three premises, two people must play the following game:
+
 1. Player A puts a sum between 0 and 100 into a third-party bank.
+
 2. Player B deposits between 0 and 100 into A third-party bank without knowing how much Player A has invested.
+
 3. Start judging:
+
 (1) If player B puts in less than Player A puts in minus 25, Player B gets all the money in the bank. (The minimum value is 0)
+
 (2) If player B puts in more money than player A puts in minus 25 and less than player A puts in plus 25, both players get 200 each.
+
 (3) If player B puts in more money than Player A puts in plus 25 and less than Player A puts in plus 50, Player A withdraws all the money in the bank. (The maximum is 100)
+
 (4) If player B puts in more money than player A puts in plus 50, both players lose all their money in the bank and the game ends.
+
 (5) If both players put in zeros, players A and B lose all their money and the game ends.
 
 In this game, the number from 0 to 100 is equally divided into four parts, which are respectively used to represent the four intervals that players may choose during the game. The purpose is to detect whether two people will choose the safest way of cooperation without knowing each other's cooperation willingness and behavior information or choose not to cooperate, but to gain benefits by taking risks.
@@ -45,10 +52,21 @@ Possible strategies for Player A:
 
 1. Win-win cooperation: First of all, according to the rules of the game, if two people choose to cooperate, they will inevitably achieve the maximum benefit of the game, which is at least 200 rewards twice the game cost. It is not difficult to achieve this outcome, and it is only necessary to choose a number between 25 and 75 to ensure cooperation, assuming that the other party is also willing to cooperate. (Since this is a symmetric range of 50, Player B only needs to select 50 to succeed, provided that case (2) is achievable.)
 
-2. Risk minimization: If Player A does not believe that player B will choose to cooperate with him, then putting in 0 is the safest thing to do. In this case, first of all, situation (1) cannot be achieved, and B cannot gain greater benefits by betraying cooperation; For case (4), It is possible that if player B puts more than 50 into the bank, he loses all the money he puts into the bank, and player A loses nothing; Case (3) is the best situation besides case (2), because if Player B invests less than 50, then player A can get all of Player B's investment bank at no cost; If case (2) is achieved, then player A gets 200 at no cost (in fact, I think this is the way to maximize the benefits, provided Player B can choose a number between 1 and 25. However, if player B and player A both expect to gain 200 with zero cost, then they will suffer the greatest loss, which is the case (5).
+2. Risk minimization: If Player A does not believe that player B will choose to cooperate with him, then putting in 0 is the safest thing to do. In this case, first of all, situation (1) cannot be achieved, and B cannot gain greater benefits by betraying cooperation; 
+
+For case (4), It is possible that if player B puts more than 50 into the bank, he loses all the money he puts into the bank, and player A loses nothing; 
+
+Case (3) is the best situation besides case (2), because if Player B invests less than 50, then player A can get all of Player B's investment bank at no cost; 
+
+If case (2) is achieved, then player A gets 200 at no cost (in fact, I think this is the way to maximize the benefits, provided Player B can choose a number between 1 and 25.
+
+However, if player B and player A both expect to gain 200 with zero cost, then they will suffer the greatest loss, which is the case (5).
+
 In either case, if player A chooses to invest 0, then player A's risk is minimized if Player B invests non-0.
 
-3. Alternative risk minimization methods: As I mentioned in the risk minimization method if player A chooses to invest 0, A and B are likely to achieve the situation (5). To avoid this risk, player A can also invest 1, which may cause situation (1) and make him lose the money invested in the bank, but considering the avoidance of situation (5), this is an alternative to the risk avoidance plan.
+3. Alternative risk minimization methods: As I mentioned in the risk minimization method if player A chooses to invest 0, A and B are likely to achieve the situation (5). 
+
+To avoid this risk, player A can also invest 1, which may cause situation (1) and make him lose the money invested in the bank, but considering the avoidance of situation (5), this is an alternative to the risk avoidance plan.
 
 Possible strategies for Player B:
 
@@ -60,7 +78,7 @@ Possible strategies for Player B:
 
 4. Gambler's scheme: Different from Player A, in addition to the cooperation scheme and risk minimization scheme, Player B can choose to invest a number less than 25 to get all of Player A's funds. (If player A is unwilling to cooperate, then he must put in a number between 50 and 100 because Player A wants to avoid the situation (4) in the first place, then he must put in a number large enough to ensure this.)
 
-- Pay-off:
+Pay-off:
 
 Based on all of the above solutions, there are several possible scenarios for this game:
 
@@ -75,27 +93,81 @@ Player B puts in more money than player A puts in plus 25 and less than player A
 
 - Concept of solution:
 
-Based on the above analysis and reasoning, if two people trust each other and are willing to cooperate, then it is clear that player A putting in a number between 25 and 75 and player B putting in 50 is the safest way to get 200; However, if player A does not trust player B, they may choose to put in a zero or a one to reduce the risk they may face. There exists a difference between A and B because if Player B wants to get all of Player A's money, he only needs to invest a small number less than 25 to achieve situation (1), but if player A wants to get all of Player B's money through the gambler's game, he must put in A number between 50 and 100.
+Based on the above analysis and reasoning, if two people trust each other and are willing to cooperate, then it is clear that player A putting in a number between 25 and 75 and player B putting in 50 is the safest way to get 200; 
+
+If player A does not trust player B, they may choose to put in a zero or a one to reduce the risk they may face. However, putting in a 0 means taking the risk of case 5, so putting in a 1 is a safer option for both player A and player B. (We don't rule out the possibility that both players could pick 1 at the same time and trigger condition (2) and both end up with 200. But in the current discussion, we are talking more about risk-aversion measures for self-interest than about maximization measures for getting 200 benefits. At the same time, I think that if two people want to work together to get the 200 bonus, they are more likely to choose option 1 rather than both 1's, because it is not common sense to put both 1's in. I can't find a specific paper on this, but according to the players I spoke to, it was a general consensus.)
+
+There exists a difference between A and B because if Player B wants to get all of Player A's money, he only needs to invest a small number less than 25 to achieve situation (1), but if player A wants to get all of Player B's money through the gambler's game, he must put in A number between 50 and 100. The purpose of this is to avoid the situation (4) in the first place. Player A cannot let player B put in 50 more money than he does, so it is safe to do so.
 
 - Evaluation:
 
 Efficiency: The benefit of this game is relatively high. Compared with the initial 100 funds of two people, if two people can get 200 rewards through win-win cooperation, the final net profit will be at least 50%. If two people choose the risk reduction option, they can get a return of 200 at zero cost.
-
 Of course, if they both want to speculate, the return will be zero and the net loss will be achieved.
 
 Fairness: Objectively, the game is unfair to player A, because if Player A wants to get all of Player B's money through the gambler's game, he must put in A number between 50 and 100. If Player A's scheme fails, his loss will be greater than 50.
 
 If Player B wants to get all of Player A's money, he only needs to invest a small number less than 25 to achieve situation (1), and even if Player B's plan fails, his loss will only be less than 25.
 
+In addition, it is not difficult to see another kind of unfairness in the decision-making process: if player A wants to maximize the benefits, he only needs to choose a number above 25, without taking a huge risk; However, he also wants to circumvent the case (4), so he has to pick a number above 50. However, player (B) only needs to put in a number less than 25 if he wants to get the maximum benefit through the gambler's method. At the same time, if he wants to circumvent case (4), he still only needs to put in a number less than 25. This means that case (4) actually limits player A's decision-making process and has no effect on player B.
+
+At the same time, another kind of unfairness is that Player B has control over whether to cooperate or not, because he gains even if he chooses not to cooperate. If player A wants to cooperate and put in A number between 25 and 75, Player B can either just put in a number under 25 to get all the money that Player A has banked or choose to put in 50 to complete the cooperation. In both cases, Player B will benefit; However, if Player B chooses the first option, player A loses the money he deposited in the bank.
+
+The final unfairness is that Player B's choices are easier and more efficient, and player A has to face multiple choices and guess what Player B is likely to do in order to determine how much money he should deposit. Even if case (4) is finally triggered, player B can limit the loss to 25, but player A can lose at least 50.
+In all cases, player B's loss is less than player A's and the game is easier for player B (if Player B is rational, he won't put in a number greater than 50).
+
 Of course, if two people choose to cooperate, this injustice will be eliminated.
+
 
 
 
 ### Code
 - Game Environment
-- Strategic plays
-- Equilibruim Evaluations: e.g. belief, strategy, and payoffs
-- oTree Experimental Code 
+
+The game environment of the trust game is to let player A and player B point the order, between 0 and 100 and choose any amount of money into a third-party bank, in the process of saving two people can not communicate, can not know the direction of the bank deposit how much money, the game results only until two people have saved money will be revealed.
+
+Depending on how much money two people deposit, several things can happen:
+
+(1) If player B puts in less than Player A puts in minus 25,  Player B gets all the money in the bank. (The minimum value is 0)
+
+(2) If player B puts in more money than player A puts in minus 25 and less than player A puts in plus 25,  both players get 200 each.
+
+(3) If player B puts in more money than Player A puts in plus 25 and less than Player A puts in plus 50,  Player A withdraws all the money in the bank. (The maximum is 100)
+
+(4) If player B puts in more money than player A puts in plus 50,  both players lose all their money in the bank and the game ends.
+
+(5) If both players put in zeros, players A and B lose all their money and the game ends.
+
+- Strategies
+
+In addition to the strategies described in the first part using backward induction, I think there are several other feasible strategies which, unlike the rational economic Man hypothesis mentioned in backward induction, do not pursue maximum benefit or minimum risk at every step.
+
+Strategy (1): Based on the analysis in the evaluation section, we already know that the rules of the game are unfair to player A. If Player A wants to play the game to get all the money that B deposits in the bank, then he must deposit a number between 50 and 100 into the bank. However, if Player B chooses to deposit A number less than 25, Player A loses all the money in the bank.
+
+Therefore, Player A can choose a number less than 25, either out of dissatisfaction with the rules of the game or out of revenge against Player B. Given that we know that player B will never choose A number greater than 50 (because choosing a number less than 50 makes it easier to trigger (1)), there are only two consequences: If Player B puts between 25 and 50 in the bank, Player A succeeds, triggers (3) and gets all of B's money in the bank;
+
+Or if player B puts in 50, then player A loses 0, player B loses all of his money, and the goal of breaking the game is accomplished. (Of course, player A's choice of 75 is the best case, because if player B puts in 50, this choice also leaves open the possibility of scenario (2), which is win-win cooperation.)
+
+Strategy (2) In the game, players can also give up A directly into 0, because no matter which player makes A choice, the final cost in various cases is higher than player B, this is the rules of the game of unfair, the schematics of the assessment will be mentioned.
+
+- Assessment of the game:
+
+Trust: This game is A good test of player A's trust in Player B, because there are so many choices for player A, and only through trust can Player A decide to put in a number between 25 and 75 to ensure that the cooperation works.
+
+However, the game does not do A good job of testing player B's trust in player A. As mentioned in the first comment, even if Player B does not trust player A, he can choose to put in 25. There is also the possibility of cooperation (A puts the number between 25 and 50). This number also works in the gambler's game, for example, if A puts in A number above 50, player B gets all the money that player A deposits in the bank.
+
+For Player B, cooperation and trust are not as important in obtaining benefits as they are for player A, because the rules place so few restrictions on player B.
+Cost: There's an unfairness in games that we don't talk about, and it's cost.
+
+(1) If player A plays the game, his loss range will be above 50, while player B can control it within 25;
+
+(2) Assuming that player A and Player B cooperate, player A should choose A number between 38 and 62 for more stable cooperation (for example, Player A chooses 38) since this range is closer to 50, but player B can still choose 25, which satisfies the condition.
+As A result, player A spends 38 to get 200, while player B spends only 25 to get 200;
+
+(3) Costs and benefits of the gambler's game: The gambler's game is A loss for player A because if player A wants all of Player B's money, he must put in a number larger than Player B's (not necessarily between 50 and 75) to comply with the rules. The money that player B puts in the bank is less than the cost that player A spent to get that money. Therefore, the gambler's game only benefits player B, and a small enough number will do the trick.
+
+Strategy: In terms of strategy, player A needs to face a variety of situations in which player B may save money and design the number of savings from 0 to 100. Each possibility will face the risk of loss, and the larger the number, the higher the loss; For player B his range can be fixed between 0 and 25, and he can lose money and still keep at least 75.
+
+Player B is critical to the outcome of the game, whereas Player A is much more passive.
 
 
 ### Spotlight
