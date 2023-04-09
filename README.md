@@ -261,10 +261,14 @@ T. Friedman, Alice, and Susan E. Metros. “Pirate Games: Creating a Fictional W
 ### More about the Author
 - headshot
 - self-introduction
+  I am a student majoring in Computer design in the track of computer science. Currently studying at Duke Kunshan University.
 - Final reflections 
   - intellectual growth
+This game made me use a lot of mathematical formulas to calculate. Before making this game, I didn't realize how difficult it would be to create a balanced game environment. If we just made a game that worked, it would be easy. However, if we want our game to be used to test the player's preference for every decision and 1 make the game as balanced as possible, this is difficult. After using a lot of mathematical formulas, at least my mathematical ability has improved.
   - professional growth
+Professionally, oTree is a software platform I have never come into contact with. During the process of making OTree, I enhanced my Python skills and found some programming problems of my own. After making this game, the relevant expertise has been enhanced.
   - living a purposeful life
+Before making a game, I thought it was meaningless, like writing a novel with only a few lines. We cannot tell a complete story through short descriptions or procedures. However, in the process of making this game, I realized that even a short game can contain a lot of games and possibilities.
 
 ### References
 
