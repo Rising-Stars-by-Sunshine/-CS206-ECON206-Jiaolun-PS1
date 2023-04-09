@@ -260,6 +260,8 @@ T. Friedman, Alice, and Susan E. Metros. “Pirate Games: Creating a Fictional W
 
 ### More about the Author
 - headshot
+![4b751e90a13170130f111a66559d5af](https://user-images.githubusercontent.com/124484841/230754135-b3fa32be-518b-40e8-83b3-aaff65028b30.jpg)
+
 - self-introduction
   I am a student majoring in Computer design in the track of computer science. Currently studying at Duke Kunshan University.
 - Final reflections 
