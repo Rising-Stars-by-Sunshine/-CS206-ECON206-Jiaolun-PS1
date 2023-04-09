@@ -170,7 +170,7 @@ Strategy: In terms of strategy, player A needs to face a variety of situations i
 
 Player B is critical to the outcome of the game, whereas Player A is much more passive.
 
-Changes to the game:
+- Changes to the game:
 
 I haven't changed the players' endowments; both players still have 100 to start with; Instead of a multiplier for the game, I went to a quintuple conditional statement to determine which of the two scenarios the player chose and directly to determine what the revenue would be; In the aspect of demonstration, I changed the rules of the game, which changed from two players giving money to each other in turn to a one-round game. The rules of the game are as follows:
 
@@ -190,7 +190,7 @@ I haven't changed the players' endowments; both players still have 100 to start 
 
 (5) If both players put in zeros, players A and B lose all their money and the game ends.
 
-Different things a player might do when playing a game:
+- Different things a player might do when playing a game:
 
 (1) In the original game, the player decided whether to give money to another player. If he chooses to surrender, he is willing to cooperate and trusts his opponent. Also, the more money you hand over, the bigger the payoff; If not, it means the player is worried about losing money and doesn't trust his opponent.
 In my game, players may give less money even if they trust their opponent, because the payoff is fixed, and the less money you spend to get the payoff the bigger the net profit.
