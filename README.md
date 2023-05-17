@@ -289,5 +289,54 @@ Levin, Dan, and Luyao Zhang. 2020. “Bridging Level-K to Nash Equilibrium.” *
   year={2022},
   publisher={MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…}
 }
-```
-
+@incollection{nash1996non,
+  title={Non-cooperative games},
+  author={Nash Jr, John},
+  booktitle={Essays on Game Theory},
+  pages={22--33},
+  year={1996},
+  publisher={Edward Elgar Publishing}
+}
+@article{aumann1995backward,
+  title={Backward induction and common knowledge of rationality},
+  author={Aumann, Robert J},
+  journal={Games and economic Behavior},
+  volume={8},
+  number={1},
+  pages={6--19},
+  year={1995},
+  publisher={Elsevier}
+}
+@article{browne2012survey,
+  title={A survey of monte carlo tree search methods},
+  author={Browne, Cameron B and Powley, Edward and Whitehouse, Daniel and Lucas, Simon M and Cowling, Peter I and Rohlfshagen, Philipp and Tavener, Stephen and Perez, Diego and Samothrakis, Spyridon and Colton, Simon},
+  journal={IEEE Transactions on Computational Intelligence and AI in games},
+  volume={4},
+  number={1},
+  pages={1--43},
+  year={2012},
+  publisher={IEEE}
+}
+@article{lowe2017multi,
+  title={Multi-agent actor-critic for mixed cooperative-competitive environments},
+  author={Lowe, Ryan and Wu, Yi I and Tamar, Aviv and Harb, Jean and Pieter Abbeel, OpenAI and Mordatch, Igor},
+  journal={Advances in neural information processing systems},
+  volume={30},
+  year={2017}
+}
+@article{mnih2013playing,
+  title={Playing atari with deep reinforcement learning},
+  author={Mnih, Volodymyr and Kavukcuoglu, Koray and Silver, David and Graves, Alex and Antonoglou, Ioannis and Wierstra, Daan and Riedmiller, Martin},
+  journal={arXiv preprint arXiv:1312.5602},
+  year={2013}
+}
+@article{silver2016mastering,
+  title={Mastering the game of Go with deep neural networks and tree search},
+  author={Silver, David and Huang, Aja and Maddison, Chris J and Guez, Arthur and Sifre, Laurent and Van Den Driessche, George and Schrittwieser, Julian and Antonoglou, Ioannis and Panneershelvam, Veda and Lanctot, Marc and others},
+  journal={nature},
+  volume={529},
+  number={7587},
+  pages={484--489},
+  year={2016},
+  publisher={Nature Publishing Group}
+}
